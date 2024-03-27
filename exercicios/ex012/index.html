@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>
+        Este video está hospedado no meu próprio servidor
+    </p>
+    <p>
+        Há também duas formas de inserir o video <br>
+        Método 1:
+    </p>
+    <video src="midia/meu-video.mp4" width="560" controls ></video>
+    <p>
+        Método 2:
+    </p>
+    <video controls width="560" poster="imagens/mar-capa.png" loop>
+        <source src="midia/meu-video-y.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>
+            Seu navegador não tem compatibilidade com reprodução de videos
+        </p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+
+    <!--Basta abrir o youtube, clicar em "compartilhar" e em seguida "incorporar", cole o codigo aqui-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=_R0CypHPFYYrzCF5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do VIMEO</h1>
+
+    <iframe src="https://player.vimeo.com/video/94640679?h=89cf3ad505&loop=1&color=ffffff&title=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p> <!--Fonte mono espaçada é com a tag CODE-->
+        O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.
+    </p>
+    <pre> <!--O PRE considera todos os espaços e a formatação de um código para que não fique um do nado do outro-->
+        <code>
+            num = int (input('digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR)
+            Else:
+                print(f'O número {num} é ÍMPAR)
+            print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>  O computador é um burro muito rápido</q></p> <!--A tag  Q dá um sentido de citação-->
+    <h2>Citações completas</h2>
+    <p>
+        Segundo Mauricio Samy, no seu livro HTML5 – 2ª Edição:
+    </p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML5_2%C2%AA_Edi%C3%A7%C3%A3o/f7JVBQAAQBAJ?hl=pt-BR&gbpv=1&dq=html+leigos&printsec=frontcover"> <!--a tag CITE é para ajudar ao mecanismo de busca a saber que nessa pagina tem uma citação da pagina que está o link na tag cite-->
+        É necessário que o desenvolvedor faça uma analise criteriosa para uso deste elemento. Não devemos usá-lo se houver um elemento mais apropriado.
+    </blockquote> <!-- Esta tag é para o html saber que tem uma citação de alguém-->
+    <h2>Abreviações</h2>
+    <p> <!--a tag ABBR serve para quando o mouse passar pela palavra abreviada ele mostra o significado-->
+        Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+    </p> 
+    <h2>Texto invertido</h2>
+    <p><!--Serve para criar texte invertidos(???)-->
+        <bdo dir="rtl"> Estou aprendendo a criar coisas em <abbr title="HyperText Markup">HTML</abbr></bdo>
+    </p> <!--RTL é (direita para esquerda), LTR (Esquerda para direita)-->
+</body>
+</html>
